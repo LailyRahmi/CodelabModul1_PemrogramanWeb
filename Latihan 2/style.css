@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    background-color: gold;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+
+th {
+    background-color: gold;
+}
